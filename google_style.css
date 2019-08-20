@@ -1,0 +1,120 @@
+body {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.navbar {
+    font-family: Arial;
+    display: block;
+    color: gray;
+    font-size: 13px;
+    position: relative;
+    padding-top: 5px;
+}
+.navbar li {
+    display: inline-block;
+    margin: 0 5px;
+    position: relative;
+}
+a {
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+}
+#topleft {
+    float: left;
+    margin: 0px;
+    width: 100px;
+    padding-left: 10px;
+}
+#topright {
+    float: right;
+    margin: 0px;
+    padding-right: 35px;
+    width: 180px;
+}
+
+#signin {
+    border: 2px solid rgb(87, 177, 230);
+    background-color: rgb(87, 177, 230);
+    padding: 5px 8px;
+    border-radius: 3px;
+    margin-left: 10px;
+    height: 15px;
+}
+.googlelogo img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    padding: 170px 20px 15px 150px;
+}
+.center {
+    display: block;
+}
+#search input {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 510px;
+    border: 0;
+    height: 30px;
+    padding-bottom: 9px;
+    border: transparent;
+}
+#search {
+    border: 1px solid rgb(189, 189, 189);
+    background-color: transparent;
+    border-radius: 25px;
+    width: 550px;
+    height: 30px;
+    padding-bottom: 12px;
+    margin: 0 auto;
+}
+.buttons {
+    display: block;
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 290px;
+    padding-bottom: 170px;
+}
+#google-search {
+    width: 120px;
+    height: 35px;
+    border: 1px solid rgb(247, 247, 247);
+    font-size: 15px;
+    background-color:rgb(247, 247, 247);
+    color: rgb(100, 100, 100);
+    border-radius: 5px;
+}
+#lucky {
+    width: 140px;
+    height: 35px;
+    border: 1px solid rgb(247, 247, 247);
+    font-size: 15px;
+    background-color: rgb(247, 247, 247);
+    margin-left: 5px;
+    color: rgb(100, 100, 100);
+    border-radius: 5px;
+}
+.footer {
+    display: block;
+    font-family: Arial;
+    color: gray;
+    font-size: 13px;
+    background-color: rgb(247, 247, 247);
+    height: 50px;
+}
+
+.footer li {
+    display: inline-block;
+    margin: 0 5px;
+    position: relative;
+    padding-top: 3px;
+}
+#bottom-left {
+    float: left;
+    padding-left: 10px;
+}
+#bottom-right {
+    float: right;
+    padding-right: 35px;
+}
